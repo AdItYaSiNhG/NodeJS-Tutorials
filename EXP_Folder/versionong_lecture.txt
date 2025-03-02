@@ -1,0 +1,31 @@
+//version
+
+lets take version  of express => 
+"express": "^4.21.2"
+
+now this version has three parts
+1. part -> 4
+2. part -> 21
+3. part -> 2
+
+3rd part -  contains minor fixes (optional updates)
+
+2nd part - recommended bug fixes (security fixes)
+example => 4.22.1
+
+1rd part => major updates or release also known as "BREAKING RELEASE"
+must not change in existing project
+change only after understanding the major update and making new project
+
+
+***NOTE***
+carrot symbol(^) => ranging for the update parameters i.e. 
+  4.21.2 <= update < 5.0.0
+
+whenever we use ^ it doesnot changes the 1st part and update the remaining two parts
+->npm update
+
+***NOTE***
+squiggley symbol(~) => only 3rd part changes rest remains same 
+
+npm install express@4.18.2 //particular version is installed

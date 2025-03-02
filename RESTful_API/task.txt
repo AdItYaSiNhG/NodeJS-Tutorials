@@ -1,0 +1,30 @@
+REST API ---- which supports JSON
+
+deals with users
+
+
+GET/api/users- raw json formate 
+
+GET/users - list all users in html formate
+GET/users/{id} - get user by id
+    example:
+    GET /users/1 - user with id 1
+    GET /users/2 - user with id 2
+
+Dynamic Path Parameter
+
+GET /api/users/:id
+:id->dynamic variable
+---------------------------------------------------
+
+POST/api/users - create new user
+---------------------------------------------------
+PATCH/api/users/{id}- edit user with id
+---------------------------------------------
+DELETE/api/users/{id} - delete user with id 
+
+
+*** now problem is that from where we get users 
+*** we need to get users from database
+we will hardcode data
+so a site "mockaroo.com"
