@@ -1,0 +1,8 @@
+what  is http headers?
+-> important part of api request and response as they represent 
+the meta data associated with the api request and response.
+
+
+we can create our own headers 
+in get methos
+res.setHeaders('myName','Aditya Singh')

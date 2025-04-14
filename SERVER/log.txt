@@ -27,3 +27,6 @@
 1740580304711:GET / new req received
 1740580311396:GET /signup new req received
 1740580408768:GET /signup new req received
+1744624288204:POST /api/users new req received
+1744624298360:GET /api/users/989 new req received
+1744624306282:GET /api/users/ new req received
